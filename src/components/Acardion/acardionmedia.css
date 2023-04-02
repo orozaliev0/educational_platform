@@ -1,0 +1,144 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 1200px) {
+img,video{
+    max-width: none;
+}
+    .dion-left{
+        gap: 1px;
+    }
+}
+@media (max-width: 1025px) {
+    .dion-left {
+        cursor: pointer;
+        gap: 0px;
+    }
+}
+@media (max-width: 992px) {
+    .summary-text h3 {
+        font-size: 20px;
+    }
+    .Dion-img{
+        width: 185%;
+        margin-left: -55px;
+    }
+    .details-parag {
+        padding-left: 5px;
+        font-size: 13px;
+    }
+    .dion{
+        gap: 130px;
+    }
+}
+@media (max-width: 768px)  {
+        .summary-text h3 {
+            font-size: 13px;
+        }
+    .dion-left{
+        margin-top: 40px;
+    }
+    .Dion-img {
+        width: 175%;
+        margin-left: -25px;
+    }
+    .kaif12 {
+        position: absolute;
+        top: 17rem;
+        width: 8%;
+    }
+}
+@media (max-width: 576px) {
+    .Dion-img {
+        width: 145%;
+        margin-left: -25px;
+    }
+    .dion {
+        gap: 70px;
+    }
+    .hrTwo {
+        margin-top: -5px;
+    }
+    .dion-left {
+        margin-top: 35px;
+    }
+    .details-parag {
+        font-size: 10px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    .kaif12 {
+        position: absolute;
+        top: 16rem;
+        width: 7%;
+    }
+    .summary-text h3 {
+        font-size: 11px;
+        line-height: 30px;
+        height: 50px;
+    }
+}
+@media (max-width: 450px) {
+.dion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+    .summary-text h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .details-parag {
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-top: -20px;
+    }
+    .Dion-img{
+        margin-left: 55px;
+    }
+    .Dion-h1{
+        margin-left: 90px;
+        text-align: center;
+        display: flex;
+    }
+    .kaif12 {
+        position: absolute;
+        top: 13rem;
+        width: 15%;
+    }
+}
+@media (max-width: 400px) {
+    .summary-text h3 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .details-parag {
+        font-size: 14px;
+        padding-bottom: 13px;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 350px) {
+  .Dion-h1{
+      margin-left: 70px;
+      text-align: center;
+      display: flex;
+  }
+    .kaif12 {
+        position: absolute;
+        top: 12rem;
+    }
+}
+@media (max-width: 320px) {
+    .Dion-h1 {
+        margin-left: 60px;
+        text-align: center;
+        display: flex;
+    }
+        .summary-text h3 {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+}
