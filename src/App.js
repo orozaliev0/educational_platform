@@ -1,9 +1,10 @@
 import './App.scss';
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
         <div className="App">
-
+            <Footer/>
         </div>
     );
 }
