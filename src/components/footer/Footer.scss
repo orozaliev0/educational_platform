@@ -367,16 +367,17 @@
       &--cards{
 
         &__card{
-
+          font-size: 55px;
         }
         &__mCard{
-
+          width: 55px;
+          height: 45px;
         }
       }
       &--footNav{
         width: 100%;
         .socLogos{
-
+          font-size: 15px;
         }
         .socLogosS{
 
@@ -386,7 +387,7 @@
 
         }
         h4{
-
+          font-size: 10px;
         }
         .line{
 
@@ -399,7 +400,7 @@
 
           }
           .text{
-
+            font-size: 8px;
           }
         }
         &__fastLinks{
@@ -421,9 +422,513 @@
         }
         &__address{
           .pq{
+            height: 120px;
           }
           .logoO{
 
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #footer{
+    .footer{
+      a{
+      }
+      &--cards{
+
+        &__card{
+          font-size: 40px;
+        }
+        &__mCard{
+          width: 43px;
+          height: 35px;
+        }
+      }
+      &--footNav{
+        width: 100%;
+        .socLogos{
+          font-size: 14px;
+        }
+        .socLogosS{
+          font-size: 14px;
+        }
+
+        h3{
+          font-size: 10px;
+          line-height: 14px;
+          margin-bottom: 7px;
+        }
+        h4{
+          font-size: 8px;
+        }
+        .line{
+          width: 85px;
+        }
+        &__selfBook{
+          a{
+            font-size: 12px;
+          }
+          img{
+            margin-right: 10px;
+          }
+          .text{
+            font-size: 8px;
+            margin-right: 0;
+          }
+        }
+        &__fastLinks{
+          width: 90%;
+          .boot{
+            height: 60px;
+          }
+        }
+        &__socials{
+          &--blockSoc{
+            &__logos{
+              width: 95%;
+            }
+          }
+        }
+        &__contacts{
+          .koko{
+            height: 50px;
+          }
+        }
+        &__address{
+          .pq{
+            height: 89px;
+          }
+          .logoO{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #footer{
+    .footer{
+      a{
+      }
+      &--cards{
+
+        &__card{
+          font-size: 40px;
+        }
+        &__mCard{
+          width: 43px;
+          height: 35px;
+        }
+      }
+      &--footNav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .socLogos{
+          font-size: 14px;
+        }
+        .socLogosS{
+          font-size: 14px;
+        }
+
+        h3{
+          font-size: 10px;
+          line-height: 14px;
+          margin-bottom: 7px;
+        }
+        h4{
+          font-size: 8px;
+          line-height: 11px;
+        }
+        .line{
+          width: 85px;
+        }
+        &__selfBook{
+
+          a{
+            font-size: 12px;
+          }
+          img{
+            margin-right: 10px;
+          }
+          .text{
+            font-size: 7px;
+            margin-right: 0;
+          }
+        }
+        &__fastLinks{
+          width: 90%;
+          .boot{
+            height: 60px;
+          }
+        }
+        &__socials{
+          display: none;
+          &--blockSoc{
+            &__logos{
+              width: 95%;
+            }
+          }
+        }
+        &__contacts{
+          .koko{
+            height: 50px;
+          }
+        }
+        &__address{
+          .pq{
+            height: 89px;
+          }
+          .logoO{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  #footer{
+    .footer{
+      a{
+      }
+      &--cards{
+        margin-top: 30px;
+        &__card{
+          font-size: 40px;
+        }
+        &__mCard{
+          width: 43px;
+          height: 35px;
+        }
+      }
+      &--footNav{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .socLogos{
+          font-size: 15px;
+        }
+        .socLogosS{
+          font-size: 15px;
+        }
+
+        h3{
+          font-size: 14px;
+          line-height: 14px;
+          margin-bottom: 7px;
+        }
+        h4{
+          font-size: 10px;
+          line-height: 11px;
+        }
+        .line{
+          width: 105px;
+        }
+        &__selfBook{
+
+          a{
+            font-size: 12px;
+          }
+          img{
+            margin-right: 10px;
+          }
+          .text{
+            font-size: 10px;
+            margin-right: 0;
+          }
+        }
+        &__fastLinks{
+          width: 90%;
+          .boot{
+            height: 60px;
+          }
+        }
+        &__socials{
+          display: block;
+          &--blockSoc{
+            &__logos{
+
+              width: 30%;
+            }
+          }
+        }
+        &__contacts{
+          .koko{
+            height: 50px;
+          }
+        }
+        &__address{
+          .pq{
+            height: 77px;
+          }
+          .logoO{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #footer{
+    .footer{
+      a{
+      }
+      &--cards{
+        margin-top: 30px;
+        &__card{
+          font-size: 40px;
+        }
+        &__mCard{
+          width: 43px;
+          height: 35px;
+        }
+      }
+      &--footNav{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .socLogos{
+          font-size: 14px;
+        }
+        .socLogosS{
+          font-size: 14px;
+        }
+
+        h3{
+          font-size: 12px;
+          line-height: 14px;
+          margin-bottom: 7px;
+        }
+        h4{
+          font-size: 10px;
+          line-height: 14px;
+        }
+        .line{
+          width: 105px;
+        }
+        &__selfBook{
+
+          a{
+            font-size: 12px;
+          }
+          img{
+            margin-right: 10px;
+          }
+          .text{
+            font-size: 10px;
+            margin-right: 0;
+          }
+        }
+        &__fastLinks{
+          width: 90%;
+          .boot{
+            height: 60px;
+          }
+        }
+        &__socials{
+          display: block;
+          &--blockSoc{
+            &__logos{
+
+              width: 30%;
+            }
+          }
+        }
+        &__contacts{
+          .koko{
+            height: 50px;
+          }
+        }
+        &__address{
+          .pq{
+            height: 77px;
+          }
+          .logoO{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 350px) {
+  #footer{
+    .footer{
+      a{
+      }
+      &--cards{
+        margin-top: 30px;
+        &__card{
+          font-size: 40px;
+        }
+        &__mCard{
+          width: 43px;
+          height: 35px;
+        }
+      }
+      &--footNav{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .socLogos{
+          font-size: 14px;
+        }
+        .socLogosS{
+          font-size: 14px;
+        }
+
+        h3{
+          font-size: 12px;
+          line-height: 14px;
+          margin-bottom: 7px;
+        }
+        h4{
+          font-size: 10px;
+          line-height: 14px;
+        }
+        .line{
+          width: 105px;
+        }
+        &__selfBook{
+          .java{
+            margin-left: 29px;
+          }
+          a{
+            font-size: 12px;
+          }
+          img{
+            margin-right: 10px;
+          }
+          .text{
+            font-size: 10px;
+            margin-right: 0;
+          }
+        }
+        &__fastLinks{
+          width: 90%;
+          .boot{
+            height: 60px;
+          }
+        }
+        &__socials{
+          display: block;
+          &--blockSoc{
+            &__logos{
+
+              width: 40%;
+            }
+          }
+        }
+        &__contacts{
+          .koko{
+            height: 50px;
+          }
+        }
+        &__address{
+          .pq{
+            height: 77px;
+          }
+          .logoO{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #footer{
+    .footer{
+      a{
+      }
+      &--cards{
+        margin-top: 30px;
+        &__card{
+          font-size: 40px;
+        }
+        &__mCard{
+          width: 43px;
+          height: 35px;
+        }
+      }
+      &--footNav{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .socLogos{
+          font-size: 14px;
+        }
+        .socLogosS{
+          font-size: 14px;
+        }
+
+        h3{
+          font-size: 12px;
+          line-height: 14px;
+          margin-bottom: 7px;
+        }
+        h4{
+          font-size: 10px;
+          line-height: 14px;
+        }
+        .line{
+          width: 105px;
+        }
+        &__selfBook{
+          .java{
+            margin-left: 29px;
+          }
+          a{
+            font-size: 12px;
+          }
+          img{
+            margin-right: 10px;
+          }
+          .text{
+            font-size: 10px;
+            margin-right: 0;
+          }
+        }
+        &__fastLinks{
+          width: 90%;
+          .boot{
+            height: 60px;
+          }
+        }
+        &__socials{
+          display: block;
+          &--blockSoc{
+            &__logos{
+
+              width: 40%;
+            }
+          }
+        }
+        &__contacts{
+          .koko{
+            height: 50px;
+          }
+        }
+        &__address{
+          .pq{
+            height: 77px;
+          }
+          .logoO{
+            font-size: 20px;
           }
         }
       }
