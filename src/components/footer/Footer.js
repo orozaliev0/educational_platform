@@ -18,11 +18,11 @@ const Footer = () => {
                 <div className="footer">
                     <div className="footer--footNav">
                         <div className="footer--footNav__selfBook">
-                            <div className="flex flex-col items-center">
+                            <div className=" java flex flex-col items-center mt-3">
                                 <img src={bg} alt=""/>
                                 <h3 className="text">SELF DEVELOPING SCHOOL</h3>
                             </div>
-                            <div className="dec mt-8">
+                            <div className="dec mt-3">
                                 <a className={"mr-2"} href="">КГ</a>
                                 <a href="">РУ</a>
                             </div>

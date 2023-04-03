@@ -8,11 +8,8 @@ import Acardion from "./components/Acardion";
 function App() {
     return (
         <div className="App">
-
-            <Footer/>
-
            <Acardion/>
-
+            <Footer/>
         </div>
     );
 }
