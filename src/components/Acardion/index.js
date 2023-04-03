@@ -1,14 +1,15 @@
 import React ,{useState} from 'react';
 import "./acardion.scss"
 import dions from "../../img/acardion-img.png"
-import kaif12 from "../../img/Kaif 12.svg"
+import kail12 from "../../img/Kaif 12.svg"
+import kaif4 from "../../img/Kaif 4.svg"
 import {MdArrowBackIosNew} from "react-icons/md";
 import "./acardionmedia.css"
 
 const Acardion = () => {
     return (
         <div id="dion">
-            <img className="kaif12" src={kaif12} alt=""/>
+                <img className="kaif12" src={kail12} alt=""/>
             <div className="container">
                 <div className="dion">
                     <div className="dion-right">
@@ -70,7 +71,7 @@ const Acardion = () => {
                                 <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько лет <br/>
                                     работы и уже их настолько много что их уже не</p>
                             </details>
-                            <hr/>
+                            <hr className="get-tenHr"/>
                         </div>
                     </div>
                 </div>
