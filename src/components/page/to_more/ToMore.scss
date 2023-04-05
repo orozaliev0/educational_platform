@@ -1,6 +1,6 @@
 .to-more {
   margin-left: 60px;
-  margin-top: 80px;
+  padding-top: 250px;
 
   h1 {
     font-weight: 600;
@@ -19,6 +19,7 @@
 }
 
 .to {
+
   display: flex;
   margin-left: 310px;
   padding-top: 40px;
@@ -264,9 +265,8 @@
 }
 
 .to_block2 {
-  margin-left: 60px;
-  margin-top: 150px;
-
+  margin-left: 0;
+padding: 100px;
   h1 {
     font-weight: 600;
     font-size: 36px;

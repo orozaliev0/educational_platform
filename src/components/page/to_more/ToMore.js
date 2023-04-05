@@ -1,5 +1,4 @@
 import React from 'react';
-import Acardion from "../../Acardion";
 import "./ToMore.scss"
 import {BsCheckLg} from "react-icons/bs";
 import {RxCross2} from "react-icons/rx";
@@ -12,7 +11,7 @@ import moreB from '../../../img/booksMore.png'
 import books from "../../../img/books_follow.png"
 import books4 from "../../../img/books_follow4.png"
 import kail12 from "../../../img/Kaif 12.svg"
-
+import Acardion from "../../Acardion"
 
 const ToMore = () => {
     const navigate = useNavigate();
@@ -131,6 +130,8 @@ const ToMore = () => {
 
             <img src={books2} alt="" className='booksAcc'/>
             <img src={booksAcc} alt="" className='booksAcc2'/>
+
+
             <Acardion/>
         </div>
     );

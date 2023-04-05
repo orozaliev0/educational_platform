@@ -1,15 +1,14 @@
-import React ,{useState} from 'react';
+import React, {useState} from 'react';
 import "./acardion.scss"
 import dions from "../../img/acardion-img.png"
-import kail12 from "../../img/Kaif 12.svg"
-import kaif4 from "../../img/Kaif 4.svg"
+
 import {MdArrowBackIosNew} from "react-icons/md";
 import "./acardionmedia.css"
 
 const Acardion = () => {
     return (
         <div id="dion">
-                {/*<img className="kaif12" src={kail12} alt=""/>*/}
+            {/*<img className="kaif12" src={kail12} alt=""/>*/}
             <div className="container">
                 <div className="dion">
                     <div className="dion-right">
@@ -31,7 +30,8 @@ const Acardion = () => {
                                         всего?</h3>
                                     <MdArrowBackIosNew className="icons"/>
                                 </summary>
-                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько лет <br/>
+                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько
+                                    лет <br/>
                                     работы и уже их настолько много что их уже не</p>
                             </details>
                             <hr className="hrTwo"/>
@@ -43,7 +43,8 @@ const Acardion = () => {
                                         перейду на другой до окончания этого?</h3>
                                     <MdArrowBackIosNew className="icons"/>
                                 </summary>
-                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько лет <br/>
+                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько
+                                    лет <br/>
                                     работы и уже их настолько много что их уже не</p>
                             </details>
                             <hr className="hrTwo"/>
@@ -56,7 +57,8 @@ const Acardion = () => {
                                     </h3>
                                     <MdArrowBackIosNew className="icons"/>
                                 </summary>
-                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько лет <br/>
+                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько
+                                    лет <br/>
                                     работы и уже их настолько много что их уже не</p>
                             </details>
                             <hr className="hrTwo"/>
@@ -68,7 +70,8 @@ const Acardion = () => {
                                         курсы?</h3>
                                     <MdArrowBackIosNew className="icons"/>
                                 </summary>
-                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько лет <br/>
+                                <p className="details-parag">К сожелению мы уже утратили счет материалы спустьа столько
+                                    лет <br/>
                                     работы и уже их настолько много что их уже не</p>
                             </details>
                             <hr className="get-tenHr"/>
@@ -77,8 +80,8 @@ const Acardion = () => {
                 </div>
             </div>
         </div>
-)
-    ;
+    )
+
 };
 
 export default Acardion;

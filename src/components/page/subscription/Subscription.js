@@ -22,9 +22,11 @@ const Subscription = () => {
 
 
     const [email, setEmail] = useState('')
+    const [name, setName] = useState('')
     const [tel, setTel] = useState('')
     const [num, setNum] = useState(0)
     const [radio, setRadio] = useState(false)
+    const [chek, setChek] = useState(false)
 
     function handleRadio(e) {
         setRadio(e.target.value)
@@ -33,16 +35,21 @@ const Subscription = () => {
     function handleNum(e) {
         setNum(e.target.value)
     }
+ function handleName(e) {
+        setNum(e.target.value)
+    }
 
     function handleEmail(e) {
         setEmail(e.target.value)
     }
 
-    const handleValueTel = (e) => {
-        setTel(e.target.value)
+  function handleChek(e) {
+        setEmail(e.target.value)
     }
+
+
     const handleSubmit = () => {
-        if (!email || !tel || !num || !radio) {
+        if (!email || !tel || !num || !radio || !name || !chek) {
             Swal.fire('Any fool can use a computer')
         } else {
             navigate('/expectation')
@@ -55,6 +62,16 @@ const Subscription = () => {
         }
     }
 
+    // const navBtn = () => {
+    //     navigate('/expectation')
+    //     setTimeout(() => {
+    //         navigate('/success')
+    //         setTimeout(() => {
+    //             navigate('/')
+    //         }, 3000)
+    //     }, 1000)
+    // }
+
     return (
         <div className='container'>
             <div className="page">
@@ -65,17 +82,17 @@ const Subscription = () => {
                     <h1>Оформление подписки</h1>
                     <div className='page__block__inp'>
                         <h2>ФИО</h2>
-                        <input type="text" placeholder="Muslim Bolot Joodarovich" name='name'/>
+                        <input onChange={handleName} type="text" placeholder="Muslim Bolot Joodarovich" name='name'/>
                     </div>
 
                     <div className='page__block__inp'>
                         <h2>Електронная почта</h2>
-                        <input type="text" placeholder='Example@gmail.com' name='email'/>
+                        <input onChange={handleEmail} type="text" placeholder='Example@gmail.com' name='email'/>
                     </div>
 
                     <div className='page__block__inp'>
                         <h2>Номер телефона</h2>
-                        <input type="number" placeholder='+996 770 55 55 55 ' name='number'/>
+                        <input onChange={handleNum} type="number" placeholder='+996 770 55 55 55 ' name='number'/>
                     </div>
 
                     <div className='page__block__inp'>
@@ -87,12 +104,12 @@ const Subscription = () => {
                     <h2 className='page__block__title'>Оплата</h2>
                     <div className='page__block__check'>
                         <div>
-                            <input type="radio" name="radio" className={"radio"} onClick={() => handleRadio}/>
+                            <input onChange={handleRadio} type="radio" name="radio" className={"radio"}/>
                             <p>Visa</p>
                         </div>
 
                         <div>
-                            <input type="radio" name="radio" className={"radio"}/>
+                            <input onChange={handleRadio} type="radio" name="radio" className={"radio"}/>
                             <p>Master Card</p>
                         </div>
 
@@ -101,15 +118,15 @@ const Subscription = () => {
                     <div className="page__block__card">
                         <div className='page__block__card__1'>
                             <h2>Номер карты</h2>
-                            <input type="number" placeholder='1234 4567 7788 9210'/>
+                            <input onChange={handleNum} type="number" placeholder='1234 4567 7788 9210'/>
                         </div>
                         <div className='page__block__card__2'>
                             <h2>Срок</h2>
-                            <input type="number" placeholder='12/25'/>
+                            <input onChange={handleNum} type="number" placeholder='12/25'/>
                         </div>
                         <div className='page__block__card__3'>
                             <h2>CVV</h2>
-                            <input type="number" placeholder='398'/>
+                            <input onChange={handleNum} type="number" placeholder='398'/>
                         </div>
                     </div>
 
@@ -119,12 +136,12 @@ const Subscription = () => {
                         <div className='page__block__price--block'>
                             <h3>Обычный</h3>
                             <div className='page__block__price--block-div'>
-                                <input type="radio" name='price'/>
+                                <input  onClick={handleRadio} type="radio" name='price'/>
                                 <p>Ежемесячно</p>
                                 <img src={booksBlock} alt="" className='booksBlock'/>
                             </div>
                             <div className='page__block__price--block-div'>
-                                <input type="radio" name='price'/>
+                                <input onClick={handleRadio} type="radio" name='price'/>
                                 <p>Ежегодно</p>
                             </div>
                             <div className='page__block__price--block2__check' style={{marginTop: "14px"}}>
@@ -152,11 +169,11 @@ const Subscription = () => {
                         <div className='page__block__price--block2'>
                             <h3>Интенсив</h3>
                             <div className='page__block__price--block-div'>
-                                <input type="radio" name='tabs'/>
+                                <input onChange={handleRadio} type="radio" name='tabs'/>
                                 <p>Ежемесячно</p>
                             </div>
                             <div className='page__block__price--block-div'>
-                                <input type="radio" name='tabs'/>
+                                <input onChange={handleRadio} type="radio" name='tabs'/>
                                 <p>Ежегодно</p>
                             </div>
 
@@ -198,14 +215,14 @@ const Subscription = () => {
                     </div>
 
                     <div className='page__block__button'>
-                        <button onClick={ handleSubmit}>Оплатить {
+                        <button onClick={handleSubmit}>Оплатить {
                             index === 1 ? price_two : price_one
                         }
                             $
                         </button>
                     </div>
                     <div className='page__block__last'>
-                        <input type="checkbox"/>
+                        <input onChange={handleChek} type="checkbox"/>
                         <h2 className='page__block__bottom'>Я ознакомился и согласен с Условиями оказания услуг</h2>
                     </div>
                 </div>
