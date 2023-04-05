@@ -20,22 +20,25 @@
     }
 
 
-    &--text {
-      a {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        color: #FFFFFF;
-        padding: 10px;
-        &:hover {
-          border-bottom: solid 1px #FFFFFF ;
-          width: 20px;
+      &--text {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+        }
+        .active{
+          border-bottom: 1px solid #fff;
         }
       }
-    }
 
-    &--btn {
+
+      &--btn {
       button {
         display: flex;
         flex-direction: row;
