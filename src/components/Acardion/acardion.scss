@@ -13,6 +13,7 @@
 }
 #dion{
     margin-top: 20px;
+    padding: 200px 0;
 }
 .dion{
     display: flex;
@@ -40,6 +41,7 @@ summary{
     margin: 10px 0;
     align-items: start;
     justify-content: space-between;
+
 }
 .summary-text h3 {
     font-weight: 400;
@@ -47,6 +49,10 @@ summary{
     line-height: 39px;
     color: #FFFFFF;
     width: 96%;
+
+}
+.summary-text {
+  transition:.4s;
 }
 summary .icons {
     color: #fff;
@@ -62,7 +68,7 @@ summary .icons {
 }
 .Dion-h1{
     font-weight: 800;
-    font-size: 33px;
+    font-size: 30px;
     color: #FFFFFF;
     margin-left: -5px;
 }
