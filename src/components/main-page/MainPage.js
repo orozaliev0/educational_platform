@@ -1,8 +1,8 @@
 import React from 'react';
 import More from "../more/More";
 import Books from "../books/Books";
-import Hero from "../hero/Hero";
 import Acardion from "../Acardion";
+import Hero from "../hero/Hero";
 
 const MainPage = () => {
 

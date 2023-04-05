@@ -5,6 +5,8 @@ import App from './App';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import store from "./redux/Reducer";
 import Layout from "./components/Layout";
 import Context from "./Context";
 
@@ -12,6 +14,9 @@ import Context from "./Context";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
+        <React.StrictMode>
+                <App />
+        </React.StrictMode>
         <Context>
             <Layout>
                 <App/>
