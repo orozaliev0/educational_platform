@@ -4,7 +4,7 @@ import HI from "../../img/HeroImg.png"
 import kaif4 from "../../img/Kaif 4.svg"
 import Kaif3 from '../../img/Kaif 3.png'
 import Kaif11 from "../../img/Kaif 11.svg"
-import Kaif2 from "../../img/books_block2.png"
+import Kaif2 from "../../img/books_block.png"
 
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
                     <div className="Hero-Book1-one">
                         <img src={Kaif11} alt=""/>
                     </div>
-                    <div className="Hero-Book2-two" style={{marginTop: '120px'}}>
+                    <div className="Hero-Book2-two">
                         <img src={Kaif2} alt=""/>
                     </div>
                 </div>
