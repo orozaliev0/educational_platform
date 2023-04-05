@@ -9,14 +9,17 @@ import ToMore from "./components/page/to_more/ToMore";
 
 import Footer from "./components/footer/Footer";
 import Acardion from "./components/Acardion";
+import Hero from "./components/hero/Hero";
 import Books from "./components/books/Books";
 import {Route, Routes} from "react-router-dom";
 import NewBooks from "./components/books/pageBooks/newBooks";
 
 
 function App() {
+
     return (
         <div className="App">
+            <Hero/>
             <Books/>
            <Acardion/>
             <Footer/>
