@@ -4,7 +4,33 @@
   justify-content: center;
   align-items: center;
   padding-top: 100px;
+  margin-bottom: 200px;
 
+  &__booksF {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+  }
+  &__books2 {
+    position: absolute;
+    left: 325px;
+    top: 189px;
+  }
+  &__books3 {
+    position: absolute;
+    left: -0.1%;
+    top: 600px;
+  }
+  &__books4 {
+    position: absolute;
+    left: 1232.89px;
+    top: 600px;
+  }
+  &__books5 {
+    position: absolute;
+    left: 440.41px;
+    top: 1368px;
+  }
   &__block {
     padding-left: 50px;
     width: 635px;
@@ -13,6 +39,10 @@
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(2px);
     border-radius: 10px;
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
 
     &__title {
       font-family: 'Montserrat', sans-serif;
@@ -59,7 +89,9 @@
         padding-left: 20px;
         color: white;
         margin-bottom: 20px;
-      }
+      }input::placeholder{
+      color: white;
+             }
     }
 
     &__check {
@@ -72,7 +104,7 @@
         color: #FFFFFF;
       }
 
-      input{
+      input {
         //margin-right: 10px;
         margin: 0 7px;
       }
@@ -109,7 +141,9 @@
           outline: none;
           margin-right: 14px;
           color: white;
-        }
+        }input::placeholder{
+           color: white;
+         }
       }
 
       &__2 {
@@ -124,7 +158,9 @@
           background: transparent;
           color: white;
 
-        }
+        }input::placeholder{
+           color: white;
+         }
       }
 
       &__3 {
@@ -138,7 +174,9 @@
           outline: none;
           color: white;
 
-        }
+        }input::placeholder{
+           color: white;
+         }
       }
     }
 
@@ -147,16 +185,9 @@
       display: flex;
 
       &--block {
-        &:focus {
-          border: 1px solid #DFAC4D;
-          transform: scale(1.1);
-        }
-
         div {
           display: flex;
           padding-bottom: 7px;
-
-
           p {
             font-family: 'Montserrat', sans-serif;
             font-style: normal;
@@ -183,18 +214,87 @@
           font-weight: 500;
           font-size: 20px;
           color: #FFFFFF;
+        }
+
+        &-btn {
+          display: flex;
+          flex-direction: column;
+          margin-top: 180px;
+
+          h1 {
+            font-weight: 600;
+            font-size: 24px;
+            color: #FFFFFF;
+            margin-left: 20px;
+          }
+
+          button {
+            width: 210px;
+            height: 40px;
+            background: transparent;
+            border: 1px solid #FFFFFF;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            color: white;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+
+        }
+        .booksBlock{
+          position: absolute;
+          left: 123px;
+          top: 20px;
+        }
+        .booksBlock2{
+          position: absolute;
+          left: 0;
+          top: 189px;
+
         }
       }
 
       &--block2 {
+        &-btn {
+          display: flex;
+          flex-direction: column;
 
+          h1 {
+            display: flex;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            color: #FFFFFF;
 
+            span {
+              font-size: 15px;
+              text-decoration: line-through;
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            width: 210px;
+            height: 40px;
+            background: transparent;
+            border: 1px solid #FFFFFF;
+            border-radius: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+          }
+        }
 
         div {
           display: flex;
           padding-bottom: 7px;
-
-
 
           p {
             font-family: 'Montserrat', sans-serif;
@@ -203,8 +303,6 @@
             font-size: 14px;
             color: #FFFFFF;
             margin-left: 5px;
-
-
           }
         }
 
@@ -218,9 +316,6 @@
         margin-right: 20px;
         transition: .4s;
 
-
-
-
         h3 {
           padding-top: 12px;
           font-family: 'Montserrat', sans-serif;
@@ -228,9 +323,25 @@
           font-size: 20px;
           color: #FFFFFF;
         }
+
+
+        &__check {
+          display: flex;
+
+          h4 {
+            color: white;
+            font-size: 15px;
+          }
+
+          &_icons {
+            color: white;
+            margin-top: 3px;
+            margin-right: 5px;
+          }
+
+        }
+
       }
-
-
     }
 
     &__button {
@@ -250,9 +361,6 @@
     &__last {
       display: flex;
 
-      input {
-      }
-
       h2 {
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -260,6 +368,7 @@
         font-size: 16px;
         line-height: 20px;
         color: rgba(255, 255, 255, 0.71);
+        margin-left: 5px;
       }
 
     }

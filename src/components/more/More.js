@@ -18,7 +18,8 @@ const More = () => {
         <div id='more'>
             <div className="container">
                 <div className="more">
-                    <img src={more1} alt="" className='more__img'/>
+                    {/*<div className={"more__img"}></div>*/}
+                    <img src={more1} alt="" className={"more__img"}/>
                     <div className='more__title'>
                         <h1>Подпишитесь сейчас за 250,00 $ / год</h1>
                         <p>И получи доступ ко всем нашим материалам и <br/>начинай развиватся сейчас вместе со всеми</p>
@@ -26,7 +27,7 @@ const More = () => {
                     <div className='more__btn'>
                         <button onClick={() => navigate("/subscription")} className='more__btn--btn1'>Подписаться
                         </button>
-                        <button className='more__btn--btn2'>Узнать больше</button>
+                        <button onClick={() => navigate('/to_more')} className='more__btn--btn2'>Узнать больше</button>
                     </div>
                     <img src={more} alt="" className='more__img2'/>
                 </div>
