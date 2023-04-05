@@ -1,12 +1,10 @@
 @media (max-width: 1440px) {
-    .container{
-        width: 90%;
+    img,video{
+        max-width: none;
     }
 }
 @media (max-width: 1200px) {
-img,video{
-    max-width: none;
-}
+
     .dion-left{
         gap: 1px;
     }
@@ -51,18 +49,27 @@ img,video{
     }
 }
 @media (max-width: 576px) {
+    .Dion-h1{
+        margin-left: 15px;
+        font-size: 40px;
+    }
+    .dion-right{
+        display: flex;
+        align-items: center;
+    }
     .Dion-img {
-        width: 145%;
-        margin-left: -25px;
+        width: 190%;
+        margin-left: 75px;
     }
     .dion {
-        gap: 70px;
+        flex-direction: column;
+        gap: 0;
     }
     .hrTwo {
         margin-top: -5px;
     }
     .dion-left {
-        margin-top: 35px;
+        margin-top: 10px;
     }
     .details-parag {
         font-size: 10px;
@@ -75,16 +82,20 @@ img,video{
         width: 7%;
     }
     .summary-text h3 {
-        font-size: 11px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
         height: 50px;
+    }
+    .details-parag {
+        font-size: 15px;
+        padding-bottom: 10px;
     }
 }
 @media (max-width: 450px) {
 .dion{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
 }
     .summary-text h3 {
         font-size: 15px;
@@ -100,13 +111,29 @@ img,video{
     }
     .Dion-h1{
         margin-left: 90px;
-        text-align: center;
+        /*text-align: center;*/
         display: flex;
     }
     .kaif12 {
         position: absolute;
         top: 13rem;
         width: 15%;
+    }
+    .dion-right{
+        display: flex;
+        align-items: center;
+    }
+    .Dion-img {
+        margin-left: 70px;
+    }
+    .Dion-h1{
+        margin-left: 0;
+    }
+    .dion-left{
+        margin-top: 0;
+    }
+    .get-tenHr{
+        margin-top: -5px;
     }
 }
 @media (max-width: 400px) {
@@ -118,6 +145,13 @@ img,video{
         font-size: 14px;
         padding-bottom: 13px;
         margin-top: 5px;
+    }
+    .Dion-h1{
+        font-size: 34px;
+    }
+    .Dion-img{
+        width: 230%;
+        margin-left: 50px;
     }
 }
 @media (max-width: 350px) {
@@ -133,12 +167,32 @@ img,video{
 }
 @media (max-width: 320px) {
     .Dion-h1 {
-        margin-left: 60px;
+        margin-left: 0;
         text-align: center;
         display: flex;
+        font-size: 32px;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
     }
-        .summary-text h3 {
-            font-size: 12px;
-            margin-bottom: 5px;
-        }
+    .summary-text h3 {
+        font-size: 17px;
+        margin-bottom: 40px;
+        font-weight: 700;
+        width: 252px;
+    }
+    .Dion-img {
+        width: 625%;
+        margin-left: 15px;
+    }
+    .details-parag {
+        margin-top: -5px;
+        font-weight: 600;
+        margin-left: -5px;
+    }
+    .hrTwo{
+        margin-top: -10px;
+    }
+    .BookG{
+        display: flex;
+    }
 }
