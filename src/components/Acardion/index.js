@@ -9,7 +9,7 @@ import "./acardionmedia.css"
 const Acardion = () => {
     return (
         <div id="dion">
-                <img className="kaif12" src={kail12} alt=""/>
+                {/*<img className="kaif12" src={kail12} alt=""/>*/}
             <div className="container">
                 <div className="dion">
                     <div className="dion-right">
