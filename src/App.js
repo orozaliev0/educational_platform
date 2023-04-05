@@ -25,8 +25,6 @@ function App() {
                 <Route path={'/newBooks'} element={ <NewBooks/>}/>
             </Routes>
 
-
-
         </>
 
     );
