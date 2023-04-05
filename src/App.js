@@ -1,4 +1,4 @@
-import './App.scss'
+
 import OurCourses from "./components/our courses/Our Courses";
 import AboutUs from "./components/about us/About Us";
 import RegistrationForm from "./components/header/page";

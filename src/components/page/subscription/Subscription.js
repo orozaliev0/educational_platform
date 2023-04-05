@@ -35,7 +35,7 @@ const Subscription = () => {
     function handleNum(e) {
         setNum(e.target.value)
     }
- function handleName(e) {
+    function handleName(e) {
         setNum(e.target.value)
     }
 
@@ -43,7 +43,7 @@ const Subscription = () => {
         setEmail(e.target.value)
     }
 
-  function handleChek(e) {
+    function handleChek(e) {
         setEmail(e.target.value)
     }
 
